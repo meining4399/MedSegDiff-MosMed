@@ -1,0 +1,73 @@
+# ===== 数据集（体积过大，不上传）=====
+MosMedData-Chest-CT-Scans-with-COVID-19-Related-Findings-main/
+data/
+dataset/
+
+# ===== 训练产物（checkpoint/log/预测图，体积过大）=====
+scripts/results/
+results/
+*.pt
+*.pth
+*.ckpt
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ===== 虚拟环境 =====
+venv/
+env/
+.venv/
+ENV/
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# ===== 日志 =====
+*.log
+logs/
+visdom/
+*.visdom
+
+# ===== 诊断脚本（一次性，已删除）=====
+scripts/diag_*.py
+
+# ===== 大文件 / 临时文件 =====
+*.nii
+*.nii.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+test_env.bat
+
+# 环境调试脚本(本地用)
+test_env.bat
+install_dependencies.bat
+quick_start.bat
+step1_*.bat
+step2_*.bat
+step3_*.bat
+step4_*.bat
